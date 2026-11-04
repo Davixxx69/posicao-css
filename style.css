@@ -17,47 +17,45 @@ body {
     z-index: 100;
     background-color: #ffffff;
     color: #ffffff;
-    padding: 16px 24px;
+    padding: 1px 1px;
     font-weight: bold;
     font-size: 18px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.icone {
-    position: absolute;
-}
-
 nav {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 30%;
     transform: translate(-50%, -50%);
 }
 
 .logo {
   width: 100px;
   height: 100px;
-  top: 50%;
-  left: 1%;
-  transform: translateY(-50%);
   }
 .usuario {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 16px;
-  padding: 4px;
+  width: 40px;
+  height: 40px;
   }
 .carrinho {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 16px;
-  padding: 4px;
+  width: 40px;
+  height: 40px;
   }
+  .etiqueta-destaque {
+    position: absolute;
+    top: -12px;
+    right: -10%;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
 .coracao {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 16px;
-  padding: 4px;
+  width: 40px;
+  height: 40px;
   }
 .menu {
     list-style: none;
@@ -65,3 +63,25 @@ nav {
     gap: 16px;
 }
 
+.icones {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translateY(-50%);
+    right: 1%;
+}
+.titulo {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 24px;
+    color: #000000;
+}
+.subtitulo {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #000000;
+}
+.t-shirts {
+    right: 15%;
+    transform: translate(507%,-101%);
+}
